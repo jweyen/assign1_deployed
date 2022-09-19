@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-pit6p336+&%xzs8$3m4@9m#&n)*a3r*mfm_njp+u$+bt_wqy_0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1','.pythonanywhere.com']
 
 
 # Application definition
@@ -130,6 +130,6 @@ LOGIN_REDIRECT_URL = '/'
 # Email settings
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'unostudent67@gmail.com'
-EMAIL_HOST_PASSWORD = 'ILikeApples4!'
+EMAIL_HOST_PASSWORD = 'kvnvqvwqtiehuppx'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
